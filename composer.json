@@ -1,0 +1,19 @@
+{
+    "name": "ghostmanid/apishield",
+    "description": "mo ta",
+    "type": "thu vien",
+    "license": "MT",
+    "authors": [
+        {
+            "name": "Trung",
+            "email": "trinhvantrung.it@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "apishield\\": "src/"
+        }
+    }
+}
