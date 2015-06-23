@@ -11,3 +11,8 @@ Step 2 :
 
 commandline -> php artisan vendor:publish
 
+Step 3: 
+
+Go to app/Kernel.php  -> add  
+
+``` 'apishield' => \App\Http\Middleware\ApiShield::class, ```

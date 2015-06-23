@@ -13,6 +13,10 @@ class ApiShield extends ServiceProvider
      */
     public function boot()
     {
+        if(!$this->app->routesAreCached())
+        {
+            require __DIR__.'route.php';
+        }
         $this->publishes([
                 __DIR__.'/controllers' => base_path('app/Http/Controllers'),
                 __DIR__.'/middleware' => base_path('app/Http/Middleware'),
