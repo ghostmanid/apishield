@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace ghostmanid\apishield;
 
 use Illuminate\Support\ServiceProvider;
 
