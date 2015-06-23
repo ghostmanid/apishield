@@ -14,8 +14,8 @@ class ApiShield extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-                __DIR__.'/controllers' => base_path('App/Http/Controllers'),
-                __DIR__.'/middleware' => base_path('App/Http/Middlewares'),
+                __DIR__.'/controllers' => base_path('app/Http/Controllers'),
+                __DIR__.'/middleware' => base_path('app/Http/Middleware'),
         ]);
     }
 
